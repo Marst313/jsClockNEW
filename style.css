@@ -161,6 +161,7 @@ body,
   display: flex;
   justify-content: center;
 }
+
 .hour li a {
   text-decoration: none;
 }
@@ -169,4 +170,8 @@ body,
   display: inline-flex;
   margin-left: 3rem;
   margin-right: 3rem;
+}
+
+.hour .a2 {
+  color: #00ff97;
 }
