@@ -140,7 +140,7 @@ body,
 }
 
 .day ul li {
-  font-size: 1rem;
+  font-size: 1.5rem;
   list-style-type: none;
   display: inline-flex;
   line-height: 180px;
@@ -153,8 +153,10 @@ body,
   justify-content: center;
 }
 .time p {
+  text-shadow: 2px 2px #c8eedf;
   font-size: 11rem;
   color: #00ff97;
+  transition: opacity 1s 0s ease-in-out;
 }
 
 .hour {
@@ -166,7 +168,7 @@ body,
   text-decoration: none;
 }
 .hour ul li {
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: inline-flex;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -174,4 +176,31 @@ body,
 
 .hour .a2 {
   color: #00ff97;
+}
+
+.animasi {
+  animation: example 1s linear backwards;
+}
+
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.flip-vertical-fwd {
+  animation: flip-vertical-fwd 1s backwards;
+}
+
+@keyframes flip-vertical-fwd {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
