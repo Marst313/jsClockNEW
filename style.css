@@ -139,7 +139,7 @@ body,
   margin-top: 12%;
 }
 
-.day ul li {
+.day p {
   font-size: 1.5rem;
   list-style-type: none;
   display: inline-flex;
@@ -148,7 +148,7 @@ body,
   padding-left: 5px;
   padding-right: 10px;
 }
-.day ul li:nth-child(1) {
+.day p:nth-child(1) {
   color: #00ff97;
 }
 .time {
@@ -177,13 +177,16 @@ body,
   margin-right: 3rem;
 }
 
+.hour .a1 {
+  color: #8a8a8a;
+}
 .hour .a2 {
   color: #00ff97;
 }
 
 /* Menambahkan animasi pada 12Hour dan 24Hour */
 .animasi {
-  animation: example 1s linear backwards;
+  animation: example 0.5s linear backwards;
 }
 
 @keyframes example {
@@ -214,34 +217,55 @@ body,
     margin-left: 15px;
     font-size: 1rem;
   }
-  .day ul li {
+  .day p {
     margin-left: 0px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1rem;
   }
   .time p {
-    font-size: 9rem;
+    display: inline-block;
+    font-size: 8rem;
     color: #00ff97;
   }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 750px) {
   .day {
+    margin-top: 35%;
     position: flex;
   }
+
   .hour ul li {
+    text-align: center;
     font-size: 2rem;
+    display: flex;
   }
 
-  .day ul li {
+  .day p {
+    position: -ms-page;
     height: 100px;
-    display: -webkit-inline-flex;
+    display: flex;
     flex-direction: column;
-    margin-left: -15%;
+    margin-left: -6%;
     font-size: 2rem;
+    text-align: center;
+    display: none;
+  }
+  .day p:nth-child(1) {
+    position: absolute;
+    display: -webkit-box;
   }
   .time p {
-    font-size: 7rem;
+    font-size: 5rem;
     color: #00ff97;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .time p {
+    font-size: 3rem;
+    color: #00ff97;
+    margin-left: 10px;
   }
 }
