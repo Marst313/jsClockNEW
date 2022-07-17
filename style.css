@@ -200,7 +200,7 @@ body,
 }
 
 .flip-vertical-fwd {
-  animation: flip-vertical-fwd 1s backwards;
+  animation: flip-vertical-fwd 0.5s linear backwards;
 }
 
 @keyframes flip-vertical-fwd {
@@ -211,6 +211,8 @@ body,
     opacity: 1;
   }
 }
+
+/* MEDIA QUERRY */
 
 @media only screen and (max-width: 1200px) {
   .hour ul li {
