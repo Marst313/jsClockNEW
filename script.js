@@ -32,25 +32,44 @@ function init() {
       if (day === 0) {
         dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
-        sunday.style.color = '#00ff97';
+
         sunday.style.zIndex = '99999';
+        sunday.style.color = '#00ff97';
       } else if (day === 1) {
+        dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
+
+        monday.style.zIndex = '99999';
         monday.style.color = '#00ff97';
-      } else if (day === 1) {
+      } else if (day === 2) {
+        dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
+
+        thuesday.style.zIndex = '99999';
         thuesday.style.color = '#00ff97';
-      } else if (day === 1) {
+      } else if (day === 3) {
+        dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
+
+        wednesday.style.zIndex = '99999';
         wednesday.style.color = '#00ff97';
-      } else if (day === 1) {
+      } else if (day === 4) {
+        dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
+
+        thursday.style.zIndex = '99999';
         thursday.style.color = '#00ff97';
-      } else if (day === 1) {
+      } else if (day === 5) {
+        dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
+
+        friday.style.zIndex = '99999';
         friday.style.color = '#00ff97';
-      } else if (day === 1) {
+      } else if (day === 6) {
+        dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
+
+        saturday.style.zIndex = '99999';
         saturday.style.color = '#00ff97';
       }
     }
