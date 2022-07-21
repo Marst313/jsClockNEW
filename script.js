@@ -30,8 +30,10 @@ function init() {
       // Menampilkan Hari
       let day = d.getDay();
       if (day === 0) {
+        dayAll.style.zIndex = '0';
         dayAll.style.color = '#8a8a8a';
         sunday.style.color = '#00ff97';
+        sunday.style.zIndex = '99999';
       } else if (day === 1) {
         dayAll.style.color = '#8a8a8a';
         monday.style.color = '#00ff97';

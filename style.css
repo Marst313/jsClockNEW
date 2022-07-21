@@ -204,6 +204,7 @@ body,
   bottom: 25px;
   text-align: center;
 }
+
 /* Menambahkan animasi pada 12Hour dan 24Hour */
 .animasi {
   animation: example 0.5s linear backwards;
