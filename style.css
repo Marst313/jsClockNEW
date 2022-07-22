@@ -278,6 +278,7 @@ body,
     position: absolute;
     display: -webkit-box;
   }
+
   .time p {
     font-size: 5rem;
     color: #00ff97;
