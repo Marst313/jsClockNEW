@@ -5,6 +5,7 @@ const time = document.querySelector('.time p');
 const tanggal = document.querySelector('.date p');
 const hourA = document.querySelector('.hour .a1');
 const hourA2 = document.querySelector('.hour .a2');
+const komenWaterMark = document.querySelector('.home-desc');
 
 // Hari
 const sunday = document.querySelector('.day p:nth-child(1)');
@@ -27,6 +28,8 @@ var isPaused = false;
 // INIT inisialiasasi
 function init() {
   if (!isPaused) {
+    // alert(`You can choose the format's of the clock `);
+
     window.setInterval(date, 1000);
     function date() {
       var d = new Date();

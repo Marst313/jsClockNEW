@@ -136,7 +136,7 @@ body,
   height: 100px;
   display: flex;
   justify-content: center;
-  margin-top: 12%;
+  margin-top: -45px;
 }
 
 .day p {
@@ -197,12 +197,20 @@ body,
 .footer {
   display: flex;
   justify-content: center;
+  margin: 2rem;
 }
 
 .footer p {
-  position: fixed;
   bottom: 25px;
   text-align: center;
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 50px;
 }
 
 /* Menambahkan animasi pada 12Hour dan 24Hour */
@@ -254,7 +262,7 @@ body,
 }
 @media only screen and (max-width: 780px) {
   .day {
-    margin-top: 35%;
+    margin-top: 10%;
     position: flex;
   }
 
