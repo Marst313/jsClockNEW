@@ -16,7 +16,13 @@ const friday = document.querySelector('.day p:nth-child(6)');
 const saturday = document.querySelector('.day p:nth-child(7)');
 const dayAll = document.querySelector('.day');
 
+const warnaDasar = (dayAll.style.color = '#8a8a8a');
+const posisiStatic = (dayAll.style.position = 'static');
 var isPaused = false;
+
+// Media querry
+
+// Check if the media query is true
 
 // INIT inisialiasasi
 function init() {
@@ -30,32 +36,53 @@ function init() {
       // Menampilkan Hari
       let day = d.getDay();
       if (day === 0) {
-        dayAll.style.color = '#8a8a8a';
+        warnaDasar;
+        posisiStatic;
 
+        sunday.style.position = 'block';
+        sunday.style.display = '-webkit-box';
         sunday.style.color = '#00ff97';
       } else if (day === 1) {
-        dayAll.style.color = '#8a8a8a';
+        warnaDasar;
+        posisiStatic;
 
+        sunday.style.position = 'block';
+        sunday.style.display = '-webkit-box';
         monday.style.color = '#00ff97';
       } else if (day === 2) {
-        dayAll.style.color = '#8a8a8a';
+        warnaDasar;
+        posisiStatic;
 
+        thuesday.style.position = 'block';
+        thuesday.style.display = '-webkit-box';
         thuesday.style.color = '#00ff97';
       } else if (day === 3) {
-        dayAll.style.color = '#8a8a8a';
+        warnaDasar;
+        posisiStatic;
 
+        wednesday.style.position = 'block';
+        wednesday.style.display = '-webkit-box';
         wednesday.style.color = '#00ff97';
       } else if (day === 4) {
-        dayAll.style.color = '#8a8a8a';
+        warnaDasar;
+        posisiStatic;
 
+        thursday.style.position = 'block';
+        thursday.style.display = '-webkit-box';
         thursday.style.color = '#00ff97';
       } else if (day === 5) {
-        dayAll.style.color = '#8a8a8a';
+        warnaDasar;
+        posisiStatic;
 
+        friday.style.position = 'block';
+        friday.style.display = '-webkit-box';
         friday.style.color = '#00ff97';
       } else if (day === 6) {
-        dayAll.style.color = '#8a8a8a';
+        warnaDasar;
+        posisiStatic;
 
+        saturday.style.position = 'block';
+        saturday.style.display = '-webkit-box';
         saturday.style.color = '#00ff97';
       }
     }

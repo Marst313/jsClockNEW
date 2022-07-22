@@ -265,7 +265,7 @@ body,
   }
 
   .day p {
-    position: -ms-page;
+    position: relative;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -273,10 +273,6 @@ body,
     font-size: 2rem;
     text-align: center;
     display: none;
-  }
-  .day p:nth-child(1) {
-    position: absolute;
-    display: -webkit-box;
   }
 
   .time p {
