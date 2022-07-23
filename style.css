@@ -215,9 +215,78 @@ body,
 
 /* comment */
 .form {
+  margin-top: 5em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.form textarea {
+  color: #000000;
+  width: 15%;
+  height: 120px;
+  background-color: #8a8a8a;
+  border-radius: 5px;
+}
+
+.form textarea::placeholder {
+  color: #000000;
+  background-color: #8a8a8a;
+}
+
+.form h5 {
+  margin-bottom: 15px;
+  color: #8a8a8a;
+}
+
+.form #addComment {
+  background-color: #00ff97;
+  opacity: 0.8;
+  padding: 0.5em;
+  border-radius: 5px;
+  color: #000000;
+  width: 7%;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.form #addComment:hover {
+  background-color: #00ff99;
+  opacity: 0.9;
+}
+
+#name {
+  width: 15%;
+  height: 2rem;
+  background-color: #8a8a8a;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+}
+#name::placeholder {
+  color: #000000;
+  background-color: #8a8a8a;
+}
+/* data yang dimasukkan */
+.containerComment {
+  border: 1px solid white;
+  margin: 1em;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+}
+
+.containerComment .nama {
+  margin: 15px;
+  border: 1px solid red;
+}
+
+.containerComment .komen {
+  margin: 15px;
+  border: 1px solid red;
+}
+
+/* Akhir dari style comment */
 
 /* Menambahkan animasi pada 12Hour dan 24Hour */
 .animasi {
@@ -265,6 +334,25 @@ body,
     font-size: 8rem;
     color: #00ff97;
   }
+  /* Comment area */
+  .form textarea {
+    width: 300px;
+    height: 120px;
+    background-color: #8a8a8a;
+    border-radius: 5px;
+  }
+  #name {
+    width: 300px;
+    height: 2rem;
+    background-color: #8a8a8a;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+  }
+  /* Submit Button */
+  .form #addComment {
+    width: 100px;
+  }
 }
 @media only screen and (max-width: 780px) {
   .day {
@@ -298,6 +386,25 @@ body,
     font-size: 2rem;
     margin-right: 25px;
   }
+  /* Comment area */
+  .form textarea {
+    width: 300px;
+    height: 120px;
+    background-color: #8a8a8a;
+    border-radius: 5px;
+  }
+  #name {
+    width: 300px;
+    height: 2rem;
+    background-color: #8a8a8a;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+  }
+  /* Submit Button */
+  .form #addComment {
+    width: 100px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -308,6 +415,22 @@ body,
   }
   .date p {
     font-size: 1rem;
+  }
+
+  /* Comment area */
+  .form textarea {
+    width: 200px;
+    height: 120px;
+    background-color: #8a8a8a;
+    border-radius: 5px;
+  }
+  #name {
+    width: 200px;
+    height: 2rem;
+    background-color: #8a8a8a;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
   }
 }
 

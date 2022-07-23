@@ -6,6 +6,11 @@ const tanggal = document.querySelector('.date p');
 const hourA = document.querySelector('.hour .a1');
 const hourA2 = document.querySelector('.hour .a2');
 const komenWaterMark = document.querySelector('.home-desc');
+const buttonComment = document.querySelector('#addComment');
+const inputName = document.querySelector('#name');
+const inputComment = document.querySelector('#bodytext');
+const menampilkanNama = document.querySelector('.nama h1');
+const menampilkanKomen = document.querySelector('.komen p');
 
 // Hari
 const sunday = document.querySelector('.day p:nth-child(1)');
@@ -93,6 +98,16 @@ function init() {
 }
 
 init();
+
+buttonComment.addEventListener('click', function () {
+  // let userName = [];
+  // let isiKomen = [];
+  // const textNama = [(menampilkanNama.innerHTML = `<h1>${inputName.value}</h1>`)];
+  // const textKomen = [(menampilkanKomen.innerHTML = `<p>${inputComment.value} </p>`)];
+  // console.log(textNama.join(userName));
+  // console.log(textKomen.join(isiKomen));
+  // console.log(typeof userName, isiKomen);
+});
 
 //12HOUR
 hourA.addEventListener('click', function () {
