@@ -99,7 +99,7 @@ function init() {
 
 init();
 
-buttonComment.addEventListener('click', function () {
+/* buttonComment.addEventListener('click', function () {
   // let userName = [];
   // let isiKomen = [];
   // const textNama = [(menampilkanNama.innerHTML = `<h1>${inputName.value}</h1>`)];
@@ -107,7 +107,7 @@ buttonComment.addEventListener('click', function () {
   // console.log(textNama.join(userName));
   // console.log(textKomen.join(isiKomen));
   // console.log(typeof userName, isiKomen);
-});
+}); */
 
 //12HOUR
 hourA.addEventListener('click', function () {

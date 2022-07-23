@@ -44,13 +44,19 @@
 
     <!-- Form Komentar -->
 
-    <div class="form">
-      <h5>Add Secret Message</h5>
-      <input type="text" id="name" placeholder="Nama" /> <br />
-      <br />
-      <textarea rows="'5" cols="30" id="bodytext" placeholder="Comment "></textarea> <br /><br />
-      <input type="button" id="addComment" value="Submit" />
-    </div>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/xayvrlyw" method="POST" class="comment">
+      <label>
+        Your email:
+        <input type="email" name="email" class="inputEmail" />
+      </label>
+      <label>
+        Your message:
+        <textarea name="message" class="inputPesan" placeholder="This is Anonymous message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
 
     <!-- Akhir Form Komentar -->
 
