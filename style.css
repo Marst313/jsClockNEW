@@ -205,12 +205,18 @@ body,
   text-align: center;
 }
 
-.comment {
+/* .comment {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
   margin-top: 50px;
+} */
+
+/* comment */
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Menambahkan animasi pada 12Hour dan 24Hour */
