@@ -218,7 +218,7 @@ body,
 
 /* comment */
 .comment {
-  margin-top: 18em;
+  margin-top: 12em;
   display: flex;
   flex-direction: column;
   justify-content: center;
