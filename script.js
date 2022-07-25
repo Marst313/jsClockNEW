@@ -33,7 +33,8 @@ var isPaused = false;
 // INIT inisialiasasi
 function init() {
   if (!isPaused) {
-    // alert(`You can choose the format's of the clock `);
+    alert(`You can choose the format's of the clock `);
+    alert(` 12 Hour or 24 Hour`);
 
     window.setInterval(date, 1000);
     function date() {
